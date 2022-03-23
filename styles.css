@@ -1,0 +1,166 @@
+*{
+	font-family: "Source Sans Pro";
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+}
+
+header {
+	background-color: #201E20;
+	color: #fff;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+nav {
+	list-style: none;
+	padding: 0;
+	background-color: #201E20;
+	width: 100%;
+	margin: 0 auto;
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+	cursor: pointer;
+}
+
+nav li{
+	display: inline-block;
+	text-align: center;
+}
+
+nav li a:hover{
+	background-color: #fff;
+	color:  #000;
+}
+
+nav li a.active{
+	background-color: #fff;
+	color:  #000;
+}
+
+article {
+	margin: 0 auto;
+	padding: 20px;
+}
+
+article h1	{
+	margin-bottom: 20px;
+}
+
+section {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 15px 0;
+}
+
+footer {
+	background-color: #201E20;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+
+#init {
+	display: block;
+}
+
+.init-content {
+	background-color: #E1E1E1;
+	margin: 40px;
+	padding: 50px;
+	border-radius: 15px;
+}
+
+.init-title {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+#todo {
+	display: none;
+}
+
+#table {
+	display: none;
+}
+
+#contact {
+	display: none;
+}
+
+button {
+	border-radius: 10px;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 16px;
+	padding: 6px 24px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #000;
+	color:  #fff;
+}
+
+button.active {
+	background-color: #136440;
+	color:  #fff;
+	font-weight: normal;
+	border: #136440;
+}
+
+label {
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.inputform {
+  height: 15px;
+  width: 50%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #9A9A9A;
+  border-radius: 5px;
+}
+
+.btn-save {
+	width: 10%;
+	border: #26CF4C;
+	border-radius: 5px;
+	font-family: Arial;
+	font-size: 16px;
+	padding: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	background-color: #26CF4C;
+	text-align: center;
+}
+
+.btn-save:hover {
+	background-color: #17B93B;
+	color:  #000;
+}
+
+.item {
+  padding: 15px;
+  list-style-type: none;
+  font-size: 18px;
+  border: 1px solid #9A9A9A;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.item:hover {
+	background-color: #E3E3E3;
+	cursor: pointer;
+}

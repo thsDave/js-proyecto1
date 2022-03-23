@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="David Ramos">
+	<meta name="description" content="Proyecto final del módulo 1">
+	<title>Proyecto</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body onload="inicio();">
+	<header>
+		<h1>Proyecto módulo 1</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a id="linkinit" onclick="mostrar('init');" class="active">Inicio</a></li>
+			<li><a id="linktodo" onclick="mostrar('todo');">My ToDo List</a></li>
+			<li><a id="linkcontact" onclick="mostrar('contact');">Contacto</a></li>
+		</ul>
+	</nav>
+	<article id="init" class="init-content">
+		<h1 class="init-title">Bienvenidos al proyecto final</h1>
+	</article>
+	<article id="todo">
+		<h1>My ToDo List</h1>
+		<section>
+			<form name="formTodo">
+				<input type="text" class="inputform" name="tarea" autocomplete="off" placeholder="Escribe una tarea">
+				<button type="button" class="btn-save" onclick="guardar();">Guardar</button>
+			</form>
+		</section>
+		<section id="list_content"></section>
+	</article>
+	<article id="contact">
+		<h1>Contacto</h1>
+		<ul>
+			<li class="item"><h4>Nombre: Isaac David Ramos</h4></li>
+			<li class="item"><h4>Teléfono: +503 1234 5678</h4></li>
+			<li class="item"><h4>e-mail: myemail@gmail.com</h4></li>
+		</ul>
+	</article>
+
+	<script src="index.js"></script>
+</body>
+</html>
